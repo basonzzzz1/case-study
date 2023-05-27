@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="settingHtml.css">
+</head>
+<body>
+<!------------------------------------------------------------------------------->
+<img src="https://pantado.edu.vn/storage/media/JmMLm6geJiz4Y9IaQyzrVljl2aIiNri13A27NEb4.jpeg" alt="Math.jpg" id="img1">
+<div id="center">
+<h1>CÁC DẠNG TOÁN CƠ BẢN</h1>
+</div>
+<h2>I:Cộng trừ nhân chia cơ bản</h2>
+<input type="number" placeholder="number a" id="math1">
+<input type="number" placeholder="number b" id="math2"><br>
+<button onclick="cong()" class="ktk">+</button>
+<button onclick="tru()" class="ktk">-</button>
+<button onclick="nhan()" class="ktk">×</button>
+<button onclick="chia()" class="ktk">÷</button>
+<div id="ketqua"></div>
+<br>
+<!---------------------------------------------------------------------------------------------------->
+<h2>II:Tìm Max Min trong dãy số</h2>
+<div>
+  <input type="text" placeholder="add element" id="name"><br>
+  <button onclick="add()">Add</button>
+</div>
+<br>
+<div id="form-edit">
+</div>
+<table>
+  <tbody id="list">
+
+  </tbody>
+</table>
+<div id="max"></div>
+<br>
+<div id="min"></div>
+<!---------------------------------------------------------------------------------------------------->
+<h2>III: kiểm tra số nguyên tố</h2>
+<input type="number" placeholder="number Prime" id="prime"><br>
+<button onclick="prime()">check</button>
+<br>
+<div id="result"></div>
+<!---------------------------------------------------------------------------------------------------->
+<h2>IV: kiểm tra các số nguyên tố đầu tiên</h2>
+<input type="number" placeholder="first prime" id="firstprime"><br>
+<button onclick="firstPrime()">check</button>
+<br>
+<div id="result1"></div>
+<!---------------------------------------------------------------------------------------------------->
+<h2>V: kiểm tra số hoàn hảo</h2>
+<input type="number" placeholder="perfect number" id="perfect"><br>
+<button onclick="perfectNumber()">check</button>
+<div id="perfect1"></div>
+<!---------------------------------------------------------------------------------------------------->
+<h2>VI: kiểm tra các số hoàn hảo đầu tiên</h2>
+<input type="number" placeholder="first perfect number" id="check2"><br>
+<button onclick="checkPerfectnumber()">check</button>
+<div id="check3"></div>
+<!---------------------------------------------------------------------------------------------------->
+<h2>VII: thứ tự fibonacci</h2>
+<input type="number" placeholder="number fibonacci" id="fibonacci"><br>
+<button onclick="fibonacci()">check</button>
+<div id="fibonacci1"></div>
+<!--------------------------------------------------------------------------------------------------->
+<h2>VIII: kiểm tra số Armstrong</h2>
+<input type="number" placeholder="check armstrong" id="double"><br>
+<button onclick="armstrong1()">check</button>
+<div id="double2"></div>
+<!--------------------------------------------------------------------------------------------------->
+<h2>IX: số armstrong nhỏ hơn</h2>
+<input type="number" placeholder="lesser armstrong" id="double3"><br>
+<button onclick="armstrong2()">check</button>
+<div id="double4"></div>
+<br>
+
+<script src="allOfMath.js"></script>
+</body>
+</html>

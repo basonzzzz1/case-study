@@ -1,0 +1,63 @@
+#img1{
+    width: 1500px;
+    height: 300px;
+}
+#center{
+    text-align: center;
+    color: darkslateblue;
+    background-color: chartreuse;
+}
+h1, h2, h3, h4,h5 {
+    font-weight: 900;
+}
+input {
+    text-align: center;
+    font-weight: bolder;
+    padding: 0 0.2em;
+    width: 25%;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: double;
+    font-size: large;
+}
+button {
+    height: 30px;
+    background-color: darkorange;
+    width: 60px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 4px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: double;
+}
+body ,html{
+    background: url("https://d33wubrfki0l68.cloudfront.net/b4759e96fa9ada8ee8caa4c771fcd503f289d791/6de77/static/triangle_background-9df4fa2e10f0e294779511e99083c2bc.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: deepskyblue;
+    align-items: center;
+    justify-content: center;
+    /*background-image: url("https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif");*/
+}
+.ktk{
+    width: 45px;
+}
+img{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: double;
+}
+div{
+    font-size: larger;
+    color: black;
+    font-weight: 1000;
+}
